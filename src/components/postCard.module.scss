@@ -1,0 +1,15 @@
+.title {
+  color: black;
+  padding-bottom: 0;
+  text-decoration: none;
+  font-size: 1.25rem;
+
+  &:hover {
+    color: lighten(black, 20%);
+    text-decoration: none;
+  }
+
+  &:active {
+    text-decoration: none;
+  }
+}

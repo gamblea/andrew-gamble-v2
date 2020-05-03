@@ -1,0 +1,40 @@
+
+@import 'bootstrap/scss/_functions';
+@import 'bootstrap/scss/_variables';
+@import 'bootstrap/scss/mixins/_breakpoints';
+
+
+.meWrapper {
+    padding: 1em;
+    overflow: hidden;
+
+    .me {
+        object-fit: cover;
+        width: 90%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50% 50% 50% 50%;
+    }
+}
+
+.logos {
+    @include media-breakpoint-up(sm) {
+      padding-top: 1em;
+    }
+    padding-bottom: 1em;
+}
+
+.logo {
+    margin: auto;
+    object-fit: cover;
+    width: 80%;
+  }
+  
+.logoContainer {
+    text-align: center;
+    @include media-breakpoint-up(sm) {
+        padding: 1.75em;
+    }
+}
