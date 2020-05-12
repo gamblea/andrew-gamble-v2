@@ -4,6 +4,16 @@ title: "CV"
 Find my most recent resume [here](/andrew-gamble-resume.pdf)  
 ## Experience
 
+##### Wish | Software Engineering Intern
+###### Jan 2020 - April 2020 | San Francisco, CA
+- Worked on a logistics system that tracks shipments from over 1 million merchants to
+500 million users worldwide
+- Implemented a daily monitoring flow for warehouse inventories using Airflow,
+Treasure Data, SQL, RedShift and Tableau. Monitoring flow discovered important bottlenecks in warehouse inventory
+- Built micro-service with Go, Redis, gRPC and Kubernetes that provides product blacklisting
+from store pickup program
+- Expanded merchant facing API using Python, React, and MongoDB
+
 ##### Intel | Software Engineering Intern
 ###### May 2019 - Sept 2019 | Toronto, ON
 - Member of Quartus Prime Static Timing Analysis Team
